@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Bootstrap Project</title>
+</head>
+
+<body style="padding: 0px 0; 
+background: -moz-radial-gradient(50% 50%, #00ced1, #fff); 
+background: -webkit-radial-gradient(50% 50%, #00ced1, #fff);
+ background: -o-radial-gradient(50% 50%, #00ced1, #fff); 
+ background: -ms-radial-gradient(50% 50%, #00ced1, #fff); 
+ background: radial-gradient(50% 50%, #00ced1, #fff)">
+
+  <nav class="navbar  navbar-expand-md navbar-dark bg-dark ">
+    <a href="#" class="navbar-brand "> Company Logo</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <div class=" navbar-nav ml-auto" style="float:left">
+        <a href="index.html" class="nav-item nav-link ">Home </a>
+        <a href="products.html" class="nav-item nav-link  active">Products</a>
+        <a href="about.html" class="nav-item nav-link">About Us</a>
+        <a href="contact.html" class="nav-item nav-link disable">Contact Us</a>
+        <input placeholder="search text" type="search">
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row features">
+      <div>
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Products</li>
+          </ol>
+        </nav>
+
+      </div>
+    </div>
+    <div>
+      <h3>Products.<a style="color:darkgray"> we build amazing stuff</a></h3>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container">
+    <div class="row features">
+      <div class="col-md-9">
+        <h4>Productot One</h4>
+        <p>this is an awesome product one description</p>
+
+      </div>
+      <div class="col-md-3 ">
+        <button type="button" class="btn btn-primary btn-lg">Buy Now</button>
+        <button type="button" class="btn btn-primary btn-lg">Free Trial</button>
+      </div>
+    </div>
+
+    <div class="row  col-md-12  d-block d-sm-block ">
+      <div class="carousel slide" data-ride="carousel" id="mycarousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/cambium (1).png" alt="" class="d-block" height="450px" width="1150px">
+            <div class="carousel-caption col-md-6 offset-md-1 d-none d-sm-block ">
+              <h5>firt slide</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/1557139800_Logo_ePMP3000.jpg" alt="" class="d-block" height="450px" width="1150px">
+            <div class="carousel-caption col-md-6 offset-md-1 d-none d-sm-block">
+              <h5>secon slide</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/cambium.jpg" alt="" class="d-block" height="450px" width="1150px">
+            <div class="carousel-caption col-md-6 offset-md-1 d-none d-sm-block">
+              <h5>third slide</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="container">
+        <div class="row features text-justify text-letf ">
+          <div class="col-md-6">
+            <h5>Product Q&A</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              quam velit, vulputate eu pharetra nec, mattis ac neque. Duis
+              vulputate commodo lectus, ac blandit elit tincidunt id. Sed
+              rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit,
+              et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit
+              iaculis pretium sit amet quis magna. Aenean velit odio,
+              elementum in tempus ut, vehicula eu diam. Pellentesque
+              rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec
+            </p>
+          </div>
+          <div class="col-md-6 ">
+            <h5>Product Testimonials </h5>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              quam velit, vulputate eu pharetra nec, mattis ac neque. Duis
+              vulputate commodo lectus, ac blandit elit tincidunt id. "
+              <p>- source </p>
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="  container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8 col-sm-6  col-6">
+          <a href="products1.html" class="btn btn-primary btn-lg">
+            <i class="fas fa-angle-left"></i>Previous Product</a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 col-6 ">
+          <a href="products3.html" class="btn btn-primary btn-lg text-letf">Next Product
+            <i class="fas fa-angle-right"> </i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center col-md-12 col-sm-12 col-11 text-justify">
+      <h6>Wanna get in touch? Email us at
+        benigno.martinez@alumno.uttehuacan.edu.mx</h6>
+    </div>
+    <hr>
+  </div>
+
+  <div class="footer iconos text-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <ul class="lis-unistyle">
+
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"> </i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </ul>
+          <h4>(c) Copyright 2013 Product Name. All rights reserved.</h4>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

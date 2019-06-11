@@ -1,0 +1,20 @@
+{
+  "name": "segundo proyecto de bootstrap",
+  "authors": [
+    "benybeny <benyoohhh@gmail.com>"
+  ],
+  "description": "bootstrap framework",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

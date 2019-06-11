@@ -1,0 +1,48 @@
+.features .fas{
+    font-size: 40px;
+    color:black; 
+
+}
+.iconos .fab{
+    font-size: 40px;
+    color:black; 
+   
+
+}
+
+html{
+    position: relative;
+    max-width: 100%;
+}
+body{
+    margin-bottom: 230px;
+}
+
+.footer{
+    position: absolute;
+    bottom:0 ;
+    width: 100%;
+    height: 200px;
+
+}
+
+
+
+.footer{
+    color: black;
+    background-repeat: no-repeat ;
+    
+}
+.footer a{
+color:black;
+}
+
+
+@media only screen and (max-width:768px){
+    .footer{
+        height: 400px;
+    }
+    body{
+        margin-bottom: 400px;
+    }
+}
